@@ -263,8 +263,8 @@ public class AddFlight extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
         String flightId = jTextField1.getText();
         String flightName = jTextField2.getText();
-        String source = jComboBox1.getSelectedItem().toString();
-        String destination = jComboBox2.getSelectedItem().toString();
+        String source = jComboBox2.getSelectedItem().toString();
+        String destination = jComboBox1.getSelectedItem().toString();
         DateFormat dt = new SimpleDateFormat("dd-MMM-y");
         String date = dt.format(jDateChooser1.getDate());
         String seatLeft = jTextField5.getText();
